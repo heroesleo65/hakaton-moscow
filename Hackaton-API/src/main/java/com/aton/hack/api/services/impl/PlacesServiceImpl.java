@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 @Data
@@ -54,6 +55,7 @@ public class PlacesServiceImpl implements PlacesService {
             }
         }
 
+        trips.sort(Comparator.comparing(Trip::getDistance));
         return trips;
     }
 
@@ -103,6 +105,13 @@ public class PlacesServiceImpl implements PlacesService {
             return (long)(distance) + " m";
         }
 
-        return (long)(distance / 1000) + " km";
+        var wholeDistance = (long) distance;
+        var builder = new StringBuilder()
+                .append(wholeDistance / 1000)
+                .append(" km");
+        if (wholeDistance % 1000 != 0) {
+            builder.append(" ").append(wholeDistance % 1000).append(" m");
+        }
+        return builder.toString();
     }
 }
