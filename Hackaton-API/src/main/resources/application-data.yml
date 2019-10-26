@@ -1,23 +1,50 @@
-data.users:
-  - id: B7E9080F-7C05-4990-9EA8-DA1FA11A316B
-    firstName: Nastya
-    lastName: Lastovkina
-    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t31.0-8/17545326_10210690019385153_8538832740766423972_o.jpg?_nc_cat=107&_nc_oc=AQnccBOMOgiAtYqDsuqk5x5GztSyYPlGpjSOKev-mNVO8kiqKeCZkrVoOJZvOJP3M_Q&_nc_ht=scontent.fhel4-1.fna&oh=cba28a34c3e179cff0cfcdab5fb963db&oe=5E5DFC0B
-    roles: VISITOR,ORGANIZER
-  - id: 9C29835A-C7A9-4900-963C-A69A76E3557E
-    firstName: Vlad
-    lastName: Laptev
-    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/14449999_1178417292231985_6715913665144164228_n.jpg?_nc_cat=107&_nc_oc=AQnW4XCB-m_bhOomLHEyEAZNg9kjGWkrs0pgyNQWas7jKxPDP0GOrgNSPQX0Q30qIOQ&_nc_ht=scontent.fhel4-1.fna&oh=49474622ee103c8347664e19529611f6&oe=5E647C79
-    roles: VISITOR,ORGANIZER
-  - id: 52B4A949-CFA9-4581-8559-A90065ABB7DC
-    firstName: Alex
-    avatar: https://scontent-mxp1-1.xx.fbcdn.net/v/t31.0-8/26758225_1812626188761613_2177519297616498776_o.jpg?_nc_cat=110&_nc_oc=AQkd93q-vv8Gsm7hWz_ExPNMi1sig3FBKpmZyq0INjNkUYEhdwHFQMxR-b1keaJ6K8A&_nc_ht=scontent-mxp1-1.xx&oh=5db3a17fade42b7126731729d76cf827&oe=5E529394
-    roles: VISITOR,ORGANIZER
-  - id: 572F9042-A033-4922-89A1-8AEDC8B09630
-    firstName: Ilya
-    secondName: Korobtsev
-    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/10624655_581088045370586_3188611329285671800_n.jpg?_nc_cat=107&_nc_oc=AQmBWWi16mLn8cO_64WcFnz01wNwSehP3uYgFgFEvJWJkL_RMpJDz_vh4_NE5zVWWuk&_nc_ht=scontent.fhel4-1.fna&oh=cbff532aaedfa57f852168579fcdc69b&oe=5E28BE37
-    roles: VISITOR,ORGANIZER
+data.profiles:
+  - roles: VISITOR,ORGANIZER
+    favorite:
+      - id: museum
+        title: Museum
+      - id: restaurant
+        title: Restaurant
+    user:
+      id: B7E9080F-7C05-4990-9EA8-DA1FA11A316B
+      firstName: Nastya
+      lastName: Lastovkina
+      avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t31.0-8/17545326_10210690019385153_8538832740766423972_o.jpg?_nc_cat=107&_nc_oc=AQnccBOMOgiAtYqDsuqk5x5GztSyYPlGpjSOKev-mNVO8kiqKeCZkrVoOJZvOJP3M_Q&_nc_ht=scontent.fhel4-1.fna&oh=cba28a34c3e179cff0cfcdab5fb963db&oe=5E5DFC0B
+
+  - roles: VISITOR,ORGANIZER
+    favorite:
+      - id: museum
+        title: Museum
+      - id: restaurant
+        title: Restaurant
+    user:
+      id: 9C29835A-C7A9-4900-963C-A69A76E3557E
+      firstName: Vlad
+      lastName: Laptev
+      avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/14449999_1178417292231985_6715913665144164228_n.jpg?_nc_cat=107&_nc_oc=AQnW4XCB-m_bhOomLHEyEAZNg9kjGWkrs0pgyNQWas7jKxPDP0GOrgNSPQX0Q30qIOQ&_nc_ht=scontent.fhel4-1.fna&oh=49474622ee103c8347664e19529611f6&oe=5E647C79
+
+  - roles: VISITOR,ORGANIZER
+    favorite:
+      - id: museum
+        title: Museum
+      - id: bar_or_pub
+        title: Bar or Pub
+    user:
+      id: 52B4A949-CFA9-4581-8559-A90065ABB7DC
+      firstName: Alex
+      avatar: https://scontent-mxp1-1.xx.fbcdn.net/v/t31.0-8/26758225_1812626188761613_2177519297616498776_o.jpg?_nc_cat=110&_nc_oc=AQkd93q-vv8Gsm7hWz_ExPNMi1sig3FBKpmZyq0INjNkUYEhdwHFQMxR-b1keaJ6K8A&_nc_ht=scontent-mxp1-1.xx&oh=5db3a17fade42b7126731729d76cf827&oe=5E529394
+
+  - roles: VISITOR,ORGANIZER
+    tags:
+      - id: bar_or_pub
+        title: Bar or Pub
+      - id: restaurant
+        title: Restaurant
+    user:
+      id: 572F9042-A033-4922-89A1-8AEDC8B09630
+      firstName: Ilya
+      secondName: Korobtsev
+      avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/10624655_581088045370586_3188611329285671800_n.jpg?_nc_cat=107&_nc_oc=AQmBWWi16mLn8cO_64WcFnz01wNwSehP3uYgFgFEvJWJkL_RMpJDz_vh4_NE5zVWWuk&_nc_ht=scontent.fhel4-1.fna&oh=cbff532aaedfa57f852168579fcdc69b&oe=5E28BE37
 
 data.routePoints:
   - id: 08444993-8675-46EF-B76E-2CFA46EF4177
@@ -82,6 +109,30 @@ data.routePoints:
         If you look across the road from the Vsevolozhsky Mansion, you'll see a cast-iron fence – and behind it, another of Prechistenka's mansions. For many years now it's housed the Museum Of Pushkin.
         The building was home to the Pushkin Museum from the mid-C20th. Scholars and enthusiasts of his poetry worked on its inception.
         The museum received many books, portraits, manuscripts, along with items of porcelain and furniture connected with Pushkin. Its halls trace the poet's life year by year.
+
+data.tags:
+  - id: museum
+    title: Museum
+  - id: sightseeing
+    title: Sightseeing
+  - id: restaurant
+    title: Restaurant
+  - id: cafeteria
+    title: Cafeteria
+  - id: bistro
+    title: Bistro
+  - id: fast_food
+    title: Fast Food
+  - id: coffee_tea
+    title: Coffee-Tea
+  - id: coffee_shop
+    title: Coffee Shop
+  - id: tea_house
+    title: Tea House
+  - id: bar_or_pub
+    title: Bar or Pub
+  - id: jazz_club
+    title: Jazz Club
 
 data.trips:
   - id: 8C28E7F5-848C-4B14-BAB0-470D215AA52E
