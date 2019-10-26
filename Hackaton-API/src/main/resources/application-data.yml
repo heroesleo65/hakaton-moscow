@@ -1,0 +1,184 @@
+data.users:
+  - id: B7E9080F-7C05-4990-9EA8-DA1FA11A316B
+    firstName: Nastya
+    lastName: Lastovkina
+    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t31.0-8/17545326_10210690019385153_8538832740766423972_o.jpg?_nc_cat=107&_nc_oc=AQnccBOMOgiAtYqDsuqk5x5GztSyYPlGpjSOKev-mNVO8kiqKeCZkrVoOJZvOJP3M_Q&_nc_ht=scontent.fhel4-1.fna&oh=cba28a34c3e179cff0cfcdab5fb963db&oe=5E5DFC0B
+    roles: VISITOR,ORGANIZER
+  - id: 9C29835A-C7A9-4900-963C-A69A76E3557E
+    firstName: Vlad
+    lastName: Laptev
+    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/14449999_1178417292231985_6715913665144164228_n.jpg?_nc_cat=107&_nc_oc=AQnW4XCB-m_bhOomLHEyEAZNg9kjGWkrs0pgyNQWas7jKxPDP0GOrgNSPQX0Q30qIOQ&_nc_ht=scontent.fhel4-1.fna&oh=49474622ee103c8347664e19529611f6&oe=5E647C79
+    roles: VISITOR,ORGANIZER
+  - id: 52B4A949-CFA9-4581-8559-A90065ABB7DC
+    firstName: Alex
+    avatar: https://scontent-mxp1-1.xx.fbcdn.net/v/t31.0-8/26758225_1812626188761613_2177519297616498776_o.jpg?_nc_cat=110&_nc_oc=AQkd93q-vv8Gsm7hWz_ExPNMi1sig3FBKpmZyq0INjNkUYEhdwHFQMxR-b1keaJ6K8A&_nc_ht=scontent-mxp1-1.xx&oh=5db3a17fade42b7126731729d76cf827&oe=5E529394
+    roles: VISITOR,ORGANIZER
+  - id: 572F9042-A033-4922-89A1-8AEDC8B09630
+    firstName: Ilya
+    secondName: Korobtsev
+    avatar: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/10624655_581088045370586_3188611329285671800_n.jpg?_nc_cat=107&_nc_oc=AQmBWWi16mLn8cO_64WcFnz01wNwSehP3uYgFgFEvJWJkL_RMpJDz_vh4_NE5zVWWuk&_nc_ht=scontent.fhel4-1.fna&oh=cbff532aaedfa57f852168579fcdc69b&oe=5E28BE37
+    roles: VISITOR,ORGANIZER
+
+data.routePoints:
+  - id: 08444993-8675-46EF-B76E-2CFA46EF4177
+    location:
+      lat: 55.744187
+      lon: 37.5989595
+    address: Russia, Moscow, Tsentralniy Administrative Okrug, Khamovniki District, 145-y kvartal
+    description:
+      title: Statue of Friedrich Engels
+      image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/c92f881f-478a-4393-98a4-850e24644d6e_800x600.jpg
+      description: >-
+        This small square is a little island of greenery with a statue in the middle – located where Ostozhenka & Prechistenka, Gogolevsky Boulevard, Znamenka & Sоymonovsky Proezd meet, and laid-out relatively recently – connected with President Nixon's visit to the USSR in 1974. Several unimpressive residential buildings were pulled down, and this square appeared where they'd previously stood. A few years later an expressive statue of Friedrich Engels was placed in the square's centre.
+        Nowadays if you stand at Engels` feet – or sit on a bench – you can enjoy the view of the Cathedral of Christ the Saviour, and the contrasting soviet-era building of Kropotkinskaya Metro Station on the Boulevard. Face away from the Cathedral and the two streets which lead away are Prechistenka to your right, and Ostozhenka to the left.
+        Statue of Friedrich EngelsVenerable soviet sculptor Ivan Kozlovsky created this statue, although he's more well-known for his two statues of the scientist Lomonosov. One of his Lomonosovs stands outside the Old Building of the University on Mokhovaya – the other in front of the University's Stalin-era high-rise building at Vorobiovy Gory.
+  - id: 1144D4A7-2270-4826-AD83-73B519F6CE91
+    location:
+      lat: 55.7446854
+      lon: 37.6004267
+    address: Russia, Moscow, Ulitsa Prechistenka, 4
+    description:
+      title: C19th Building
+      image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/e7f6f8b7-33de-4f50-87c7-22bb9b83c2c7_800x600.jpg,https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/9f060d7d-a6dc-4ff3-bcea-9eed041a3cdb_800x600.jpg,https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/1019a0c1-e87d-44fd-8da9-335962ae280b_800x600.jpg
+      description: >-
+        The corner building at the start of Prechistenka, looking out on the square, seems to have been made up of two buildings jammed together. Actually № 2 & 4 on Prechistenka were built as if one large building. In fact there were only two storeys at the end of the C18th – apartments upstairs above shops on the ground floor. The bakery magnate Filippov bought the building and added the third floor, rebuilding extensively and opening a baker's shop downstairs.
+        Maxim Filippov was originally from Kaluga – moving to Moscow to found a whole dynasty of bakers. He got his sleeves up in the bakery himself, with his whole family. His innate commercial nous paid off, and he soon opened several more Moscow bakeries. Filippov was one of the first Russian businessmen to make a success of chains of shop outlets. Village carters delivered the flour right to the courtyard on Prechistenka, where the baking ovens were – and from where the hot bread was delivered to the shops.
+        How Filippov's shop-window would have lookedModern bakers would envy the vast range Filippov baked! His rye-breads included Borodinsky, Fine-Ground and Old-Oak loaves. The wheaten goods included French rolls, Little Hooligans, sayechki, Kargopol gingerbreads, millwheel loaves, and rolls baked with liver – or sweet ones stuffed with raisins.
+        Nowadays the “Crouage” Restaurant occupies the former Filippov Bakery premises. The restaurant designers tried to recreate the feeling of a C19th dining-room with postcard views of the Cathedral of Christ the Savior.
+  - id: 2E27C746-C3D9-4C98-9AA4-4038919D6845
+    location:
+      lat: 55.7443881
+      lon: 37.5996314
+    address: Russia, Moscow, Ulitsa Prechistenka, 6
+    description:
+      title: Forbrikher's Pharmacy
+      image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/0cec0104-4386-4ac4-9f21-fde57291893e_800x600.jpg
+      description: >-
+        To the left of the “Crouage” restaurant there's a yellow three-storey building with white semi-columns. You can see a Pharmacy on the ground floor.
+        The Pharmacy came along at the end of the XIX century and is still with us today. It was the Forbrikher family's business before becoming nationalised in the soviet era – but the trade has gone on uninterrupted for over a century.
+        Heinrich Forbrikher, who founded the business here, had started in the trade as Pharmacist to the Imperial Theatres – he had outlets at both the Bolshoi and Maly theatres.
+        Imperial officials had the right to set the prices; worse luck for Forbrikher. Those working for the Royal Household in any capacity got a 40% discount, while theatre employees were entitled to medicaments free of charge.
+  - id: 5E711163-B70D-4881-8E74-06D2AEF6612A
+    location:
+      lat: 55.7440278
+      lon: 37.5993483
+    address: Russia, Moscow, Ulitsa Prechistenka, 3/1
+    description:
+      title: The White Chambers
+      image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/432b1c7b-9118-4eab-85c5-58b483bd98a7_800x600.jpg
+      description: >-
+        The bulky white constructions on the odd-numbered side of Prechistenka were residential chambers in the C18th. Nowadays they house the offices of the Fund for Cultural & Business Cooperation. The two-storey building across the road, with a white stone plinth, was residential accommodation in the late C18th.
+        This venerable old Prechistenka building is often called “The White House”. Behind it nearby are some other old red-coloured chambers of the period before Tsar Peter I. “The White House” was once the main building of Prince Prozorovsky's estate here – he was Imperial Commissioner for Weaponry in the C18th.
+        The architecture of the White ChambersThese White Chambers are built from huge bricks, with walls a meter thick. Their style reminds us a bit of fortresses – quite logically, because the days just before Peter the Great (1672–1725) were turbulent. The chambers were built so solidly that they survived both Napoleon's burning of Moscow, and the privations of the USSR.
+  - id: E230006D-592D-4AB8-A486-C6B231AA8A16
+    location:
+      lat: 55.7437276
+      lon: 37.5975686
+    address: Russia, Moscow, Ulitsa Prechistenka, 12/2 building 2
+    description:
+      title: The Pushkin Museum
+      image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/a0d51e2e-0397-4e0b-9856-c2a0a22057d0_800x600.jpg
+      description: >-
+        If you look across the road from the Vsevolozhsky Mansion, you'll see a cast-iron fence – and behind it, another of Prechistenka's mansions. For many years now it's housed the Museum Of Pushkin.
+        The building was home to the Pushkin Museum from the mid-C20th. Scholars and enthusiasts of his poetry worked on its inception.
+        The museum received many books, portraits, manuscripts, along with items of porcelain and furniture connected with Pushkin. Its halls trace the poet's life year by year.
+
+data.trips:
+  - id: 8C28E7F5-848C-4B14-BAB0-470D215AA52E
+    title: Moscow. Prechistenka
+    description: Tour in Moscow
+    creatorName: Nastya Lastovkina
+    creatorId: B7E9080F-7C05-4990-9EA8-DA1FA11A316B
+    creatorUrl: https://scontent.fhel4-1.fna.fbcdn.net/v/t31.0-8/17545326_10210690019385153_8538832740766423972_o.jpg?_nc_cat=107&_nc_oc=AQnccBOMOgiAtYqDsuqk5x5GztSyYPlGpjSOKev-mNVO8kiqKeCZkrVoOJZvOJP3M_Q&_nc_ht=scontent.fhel4-1.fna&oh=cba28a34c3e179cff0cfcdab5fb963db&oe=5E5DFC0B
+    averageRating: 4.3
+    countRatings: 150
+    duration: 30
+    tags:
+      - id: sightseeing
+        title: Sightseeing
+    route:
+      - id: 08444993-8675-46EF-B76E-2CFA46EF4177
+        location:
+          lat: 55.744187
+          lon: 37.5989595
+        address: Russia, Moscow, Tsentralniy Administrative Okrug, Khamovniki District, 145-y kvartal
+        description:
+          title: Statue of Friedrich Engels
+          image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/c92f881f-478a-4393-98a4-850e24644d6e_800x600.jpg
+          description: >-
+            This small square is a little island of greenery with a statue in the middle – located where Ostozhenka & Prechistenka, Gogolevsky Boulevard, Znamenka & Sоymonovsky Proezd meet, and laid-out relatively recently – connected with President Nixon's visit to the USSR in 1974. Several unimpressive residential buildings were pulled down, and this square appeared where they'd previously stood. A few years later an expressive statue of Friedrich Engels was placed in the square's centre.
+            Nowadays if you stand at Engels` feet – or sit on a bench – you can enjoy the view of the Cathedral of Christ the Saviour, and the contrasting soviet-era building of Kropotkinskaya Metro Station on the Boulevard. Face away from the Cathedral and the two streets which lead away are Prechistenka to your right, and Ostozhenka to the left.
+            Statue of Friedrich EngelsVenerable soviet sculptor Ivan Kozlovsky created this statue, although he's more well-known for his two statues of the scientist Lomonosov. One of his Lomonosovs stands outside the Old Building of the University on Mokhovaya – the other in front of the University's Stalin-era high-rise building at Vorobiovy Gory.
+      - id: 1144D4A7-2270-4826-AD83-73B519F6CE91
+        location:
+          lat: 55.7446854
+          lon: 37.6004267
+        address: Russia, Moscow, Ulitsa Prechistenka, 4
+        description:
+          title: C19th Building
+          image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/e7f6f8b7-33de-4f50-87c7-22bb9b83c2c7_800x600.jpg,https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/9f060d7d-a6dc-4ff3-bcea-9eed041a3cdb_800x600.jpg,https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/1019a0c1-e87d-44fd-8da9-335962ae280b_800x600.jpg
+          description: >-
+            The corner building at the start of Prechistenka, looking out on the square, seems to have been made up of two buildings jammed together. Actually № 2 & 4 on Prechistenka were built as if one large building. In fact there were only two storeys at the end of the C18th – apartments upstairs above shops on the ground floor. The bakery magnate Filippov bought the building and added the third floor, rebuilding extensively and opening a baker's shop downstairs.
+            Maxim Filippov was originally from Kaluga – moving to Moscow to found a whole dynasty of bakers. He got his sleeves up in the bakery himself, with his whole family. His innate commercial nous paid off, and he soon opened several more Moscow bakeries. Filippov was one of the first Russian businessmen to make a success of chains of shop outlets. Village carters delivered the flour right to the courtyard on Prechistenka, where the baking ovens were – and from where the hot bread was delivered to the shops.
+            How Filippov's shop-window would have lookedModern bakers would envy the vast range Filippov baked! His rye-breads included Borodinsky, Fine-Ground and Old-Oak loaves. The wheaten goods included French rolls, Little Hooligans, sayechki, Kargopol gingerbreads, millwheel loaves, and rolls baked with liver – or sweet ones stuffed with raisins.
+            Nowadays the “Crouage” Restaurant occupies the former Filippov Bakery premises. The restaurant designers tried to recreate the feeling of a C19th dining-room with postcard views of the Cathedral of Christ the Savior.
+      - id: 2E27C746-C3D9-4C98-9AA4-4038919D6845
+        location:
+          lat: 55.7443881
+          lon: 37.5996314
+        address: Russia, Moscow, Ulitsa Prechistenka, 6
+        description:
+          title: Forbrikher's Pharmacy
+          image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/0cec0104-4386-4ac4-9f21-fde57291893e_800x600.jpg
+          description: >-
+            To the left of the “Crouage” restaurant there's a yellow three-storey building with white semi-columns. You can see a Pharmacy on the ground floor.
+            The Pharmacy came along at the end of the XIX century and is still with us today. It was the Forbrikher family's business before becoming nationalised in the soviet era – but the trade has gone on uninterrupted for over a century.
+            Heinrich Forbrikher, who founded the business here, had started in the trade as Pharmacist to the Imperial Theatres – he had outlets at both the Bolshoi and Maly theatres.
+            Imperial officials had the right to set the prices; worse luck for Forbrikher. Those working for the Royal Household in any capacity got a 40% discount, while theatre employees were entitled to medicaments free of charge.
+      - id: 5E711163-B70D-4881-8E74-06D2AEF6612A
+        location:
+          lat: 55.7440278
+          lon: 37.5993483
+        address: Russia, Moscow, Ulitsa Prechistenka, 3/1
+        description:
+          title: The White Chambers
+          image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/432b1c7b-9118-4eab-85c5-58b483bd98a7_800x600.jpg
+          description: >-
+            The bulky white constructions on the odd-numbered side of Prechistenka were residential chambers in the C18th. Nowadays they house the offices of the Fund for Cultural & Business Cooperation. The two-storey building across the road, with a white stone plinth, was residential accommodation in the late C18th.
+            This venerable old Prechistenka building is often called “The White House”. Behind it nearby are some other old red-coloured chambers of the period before Tsar Peter I. “The White House” was once the main building of Prince Prozorovsky's estate here – he was Imperial Commissioner for Weaponry in the C18th.
+            The architecture of the White ChambersThese White Chambers are built from huge bricks, with walls a meter thick. Their style reminds us a bit of fortresses – quite logically, because the days just before Peter the Great (1672–1725) were turbulent. The chambers were built so solidly that they survived both Napoleon's burning of Moscow, and the privations of the USSR.
+      - id: E230006D-592D-4AB8-A486-C6B231AA8A16
+        location:
+          lat: 55.7437276
+          lon: 37.5975686
+        address: Russia, Moscow, Ulitsa Prechistenka, 12/2 building 2
+        description:
+          title: The Pushkin Museum
+          image: https://media.izi.travel/2ed2a0f1-e9a9-4d1f-b14d-0cf4bd2e4851/a0d51e2e-0397-4e0b-9856-c2a0a22057d0_800x600.jpg
+          description: >-
+            If you look across the road from the Vsevolozhsky Mansion, you'll see a cast-iron fence – and behind it, another of Prechistenka's mansions. For many years now it's housed the Museum Of Pushkin.
+            The building was home to the Pushkin Museum from the mid-C20th. Scholars and enthusiasts of his poetry worked on its inception.
+            The museum received many books, portraits, manuscripts, along with items of porcelain and furniture connected with Pushkin. Its halls trace the poet's life year by year.
+#
+#  - id: 0D543924-11FC-4CB0-8A40-6F9630350323
+#    title: Some trip title 2
+#    description: Some trip description 2
+#    creatorName: Vlad Laptev
+#    creatorUrl: https://scontent.fhel4-1.fna.fbcdn.net/v/t1.0-9/14449999_1178417292231985_6715913665144164228_n.jpg?_nc_cat=107&_nc_oc=AQnW4XCB-m_bhOomLHEyEAZNg9kjGWkrs0pgyNQWas7jKxPDP0GOrgNSPQX0Q30qIOQ&_nc_ht=scontent.fhel4-1.fna&oh=49474622ee103c8347664e19529611f6&oe=5E647C79
+#    averageRating: 4.5
+#    countRatings: 60
+#    duration: 60
+#    tags:
+#      - id: museum
+#        title: Museum
+#    route:
+#      - id: 08444993-8675-46EF-B76E-2CFA46EF4177
+#        location:
+#          lat: 55.733771
+#          lon: 37.587937
+#        description:
+#          title: Yandex Office
+#          youtube: https://www.youtube.com/watch?v=OEu4Iq5KL-Q
+#          sound: https://soundcloud.com/davejuskow/im-sorry-dave-im-afraid-i-cant-do-that
+#          image: https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+#          description: Some description

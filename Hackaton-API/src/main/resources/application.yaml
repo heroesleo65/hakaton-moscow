@@ -1,0 +1,14 @@
+here.api:
+  hosts:
+    places: places.cit.api.here.com
+  app:
+    id: XKIjO10DcopJf3EcBTOt
+    code: G1v6dGQiB5ekZYb52drnSQ
+
+spring:
+  profiles:
+    include: data
+
+logging:
+  level:
+    com.aton.hack.api.controller: debug
